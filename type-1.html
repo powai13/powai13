@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="type-1.css">
+    <audio src="se_maoudamashii_se_pc03.mp3" id="ok_audio" preload="metadata">音が鳴りません</audio>
+    <audio src="Quiz-Wrong_Buzzer02-1.mp3" id="miss_audio" preload="metadata">不正解の音が鳴りません</audio>
+    <audio src="counts.mp3" id="counts">カウントダウンの音が出ません</audio>
+
+</head>
+
+<body>
+
+<div id="all">
+    <div id="header">
+        <div class="title">タイピングゲーム</div>
+    </div>
+
+<div id="geme_body">
+     <div id="btn">
+        <input type="button" id="start_button" value="start" onclick="ready()" style="text-align: center">
+        <div id="count"></div>
+        <div id="scoredis"></div>
+    </div>
+    <div id="textbox">
+        <p id="text_jp"></p>
+        <p id="text_en"></p>
+    </div>
+</div>
+
+    <div id="rule">
+        <!-- ここにルール説明を記入 -->
+        <div id="rules">※表記のキー以外には対応していません。<br>※音が出ます。音量に注意してください。<br>※google chrome以外では正常に作動しない場合があります。　<br>※問題数がとても少ないです。</div>
+    </div>
+
+</div>
+    <script src="type-1.js"></script>
+
+</body>
+</html>
